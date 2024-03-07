@@ -4,13 +4,50 @@
 <head>
     <title>Getting Started: Serving Web Content</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{greetingStyle.css}" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-<p th:text="|Zdravo, ${name}!, Srecan 8 mart ljubavi! Znaj da te volim najvise na svetu!!! <3|" />
+<p th:text="|Zdravo, ${name}!, Srecan 8. mart ljubavi! Znaj da te volim najvise na svetu!!! <3|" />
+
+<section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="img1.jpg" alt="maca1"/>
+            <img id="slide-2" src="img2.jpg" alt="maca2"/>
+            <img id="slide-3" src="img3.jpg" alt="maca3"/>
+            <img id="slide-4" src="img4.jpg" alt="maca4"/>
+            <img id="slide-5" src="img5.jpg" alt="maca5"/>
+            <img id="slide-6" src="img6.jpg" alt="maca6"/>
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+        </div>
+    </div>
+</section>
+
+
+<p class="doleText">Pogledaj prvo ove mace gore slatke, reko sam im da te gledaju i da te paze (Sve mace te mnogoo vole hehe), pa onda klikni na dugmence ispod.</p>
+<p class="volimTe">Naravno volim te i ja i hvala ti sto si najbolja devojka na svetu (Zena).</p>
+
+<div class="myButtonDiv">
 <a href="https://www.youtube.com/watch?v=Oa_RSwwpPaA">
-    <button>Klikni za jednu mnogo lepu pesmu, koju kada cujem mislim na tebe</button>
+    <button class="button" style="vertical-align:middle">Klikni za jednu mnogo lepu pesmu, koju kada cujem mislim na tebe</button>
 </a>
+</div>
+
+<p class="textic">P.S. Stvarno sam ti zahvalan na svemu ljubavi, ti cinis ovaj zivot vredan zivljena. (P.S. u P.S. Lepa si i zgodna hihi)</p>
+
+<div class="sillyCat">
+    <a href="https://www.youtube.com/watch?v=mifHo9fC5QI">
+        <button class="button" style="vertical-align:middle">Silly cat video!</button>
+    </a>
+</div>
 </body>
 
 </html>
