@@ -1,11 +1,18 @@
 p {
   text-align: center;
-  font-size: 40px;
-  color: White;
+  font-size: 27px;
+  color: black;
+}
+
+.marchText {
+
+  text-align: center;
+  font-size: 11px;
+  color: black;
 }
 
 body {
-  background-image: url(123aaa.jpg);
+  background-image: url(macikaBG.jpg);
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
